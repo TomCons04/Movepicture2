@@ -28,10 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Move = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // Move
+            // 
+            this.Move.Location = new System.Drawing.Point(386, 212);
+            this.Move.Name = "Move";
+            this.Move.Size = new System.Drawing.Size(218, 69);
+            this.Move.TabIndex = 1;
+            this.Move.Text = "Move";
+            this.Move.UseVisualStyleBackColor = true;
+            this.Move.Click += new System.EventHandler(this.Move_Click);
             // 
             // pictureBox1
             // 
@@ -42,16 +52,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // Move
-            // 
-            this.Move.Location = new System.Drawing.Point(386, 212);
-            this.Move.Name = "Move";
-            this.Move.Size = new System.Drawing.Size(218, 69);
-            this.Move.TabIndex = 1;
-            this.Move.Text = "button1";
-            this.Move.UseVisualStyleBackColor = true;
-            this.Move.Click += new System.EventHandler(this.Move_Click);
             // 
             // Form1
             // 
